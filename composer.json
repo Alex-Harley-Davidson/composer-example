@@ -1,0 +1,16 @@
+{
+    "name": "alexb/composer-example-package",
+    "description": "УExample project",
+    "type": "libraty",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "bsd-3-clause",
+    "authors": [
+        {
+            "name": "Alex Bogomolov",
+            "email": "AlekseiBogomolov1@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}
