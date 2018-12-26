@@ -2,7 +2,7 @@
 
 namespace alexb\parser;
 
-class Parser implements ParserInterface
+interface ParserInterface
 {
 	/**
 	* @param string $url

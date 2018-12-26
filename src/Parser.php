@@ -15,11 +15,11 @@ class Parser implements ParserInterface
 		preg_match_all('/<' . $tag . '.*?>(.*?)<\/' . $tag . '>/s', $htmlPage, $strings);
 		
 		
-		if (empty($strungs[1])) {
+		if (empty($strings[1])) {
 			return ['There are no such tags on the page'];
 		}
 		
-		return $strungs[1];
+		return $strings[1];
 		
 	}
 }
