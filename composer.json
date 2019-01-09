@@ -14,8 +14,8 @@
     ],
 	"autoload": {
 		"psr-4": {
-			"alexb\parser": "src/"
+			"alexb\\parser\\": "src/"
 		}
-	}
+	},
     "minimum-stability": "stable"
 }
